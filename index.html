@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <form id="Formulario">
+            <label>Valor de a:</label>
+            <input id="primeiro" type="number" min="1" autocomplete="off" placeholder="Digite um valor" required>
+            <p class=""></p>
+            <label>Valor de b:</label>
+            <input id="segundo" type="number" min="1" autocomplete="off" placeholder="Digite um valor" required />
+            <button type="submit">Enviar</button>
+            <div class="sucesso"></div>
+            <div class="error"></div>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
